@@ -156,7 +156,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     keyboardOriginY = keyboardCollectionView.frame.origin.y
     
-    // weird stuff with how the data has to be reloaded for the keyboard to display properly but this works so w/e
     keyboardCollectionView.reloadData()
     keyboardCollectionView.layoutIfNeeded()
     
